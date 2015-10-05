@@ -1,12 +1,12 @@
 $(document).ready(function(){
     $('#text').click(function(){
-        $(this).addClass('highlighted');
+        $(this).toggleClass('highlighted');
         });
     
     });
 $(document).ready(function(){
     $('#title').click(function(){
-        $(this).addClass('highlighted');
+        $(this).toggleClass('highlighted');
         });
     
     });

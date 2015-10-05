@@ -27,7 +27,7 @@ background:rgba(0,0,0,0.7);
   padding: 20px 0;
 }
 .nav li {
-  color: #fff;
+  color: white;
   display:inline;
   margin-right:40px;
   font-family: 'Raleway', sans-serif;
@@ -54,10 +54,14 @@ color: #ffffff;
 }
 
 
-h4{
+.right h4{
 margin-left: 5px;
 margin-bottom: 15px;
 font-family: cursive;
+color:white;
+}
+
+.right h4 ul li{
 color:white;
 }
 

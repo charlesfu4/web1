@@ -54,7 +54,7 @@ color: #ffffff;
 }
 
 .a li{
-  
+  font-family: cursive;
   color: white;
 }
 .right h4{
@@ -73,7 +73,7 @@ color:white;
 margin-left: 5px;
 margin-right: 5px;
 margin-top: -10px;
-font-family: Garamond, serif;
+font-family: cursive, serif;
 color: white;
 
 }

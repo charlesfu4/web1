@@ -1,23 +1,5 @@
 
-#title {
-    background:rgba(0,0,0,0.7);
-    border-radius: 5px;
-    text-align: center;
-    font-family: Verdana, Arial, Sans-Serif;
-    color: #FFFFFF;
-    width: 150px;
-    height: 35px;
-}
 
-#text {
-    background:rgba(0,0,0,0.7);
-    border-radius: 5px;
-    text-align: center;
-    font-family: Vivaldi, Cursive;
-    color: #FFFFFF;
-    width: 150px;
-    height: 35px;
-}
 
 .highlighted {
     -webkit-box-shadow: 0 0 8px #FFD700;

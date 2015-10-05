@@ -1,3 +1,11 @@
+div img {
+max-width:500px;
+width:500px;
+width:expression(document.body.clientWidth>500?"500px":"auto");
+overflow:hidden;
+}
+
+
 html { 
   background: url(http://www.speechbuddy.com/blog/wp-content/uploads/2014/07/roadtrip.jpg) no-repeat center center; 
   background-size: cover;

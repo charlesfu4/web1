@@ -66,7 +66,7 @@ margin-left: 5px;
 margin-right: 5px;
 margin-top: -10px;
 font-family: Garamond, serif;
-color: #000000;
+color: white;
 
 }
 
@@ -89,11 +89,11 @@ margin-bottom: 10px;
 
 .right{
 position:relative;
-float: middle;
+float: right;
 margin-top: 50px;
 width: 73%;
 height: 400px;
-background:rgba(67,65,184,0.7);
+background:rgba(0,0,0,0.6);
 margin-bottom: 10px;
 
 }

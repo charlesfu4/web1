@@ -89,11 +89,11 @@ margin-bottom: 10px;
 
 .right{
 position:relative;
-float: center;
+float: middle;
 margin-top: 50px;
 width: 73%;
 height: 400px;
-background-color: #F4EBC3;
+background:rgba(67,65,184,0.7);
 margin-bottom: 10px;
 
 }

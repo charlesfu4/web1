@@ -53,7 +53,10 @@ font-family: Verdana;
 color: #ffffff;
 }
 
-
+.a li{
+  
+  color: white;
+}
 .right h4{
 margin-left: 5px;
 margin-bottom: 15px;
@@ -61,7 +64,7 @@ font-family: cursive;
 color:white;
 }
 
-.right h4 ul li{
+li{
 color:white;
 }
 

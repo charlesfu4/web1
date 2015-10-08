@@ -7,7 +7,7 @@ body {
 
 /* Initial menu */
 .menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  background: #202024 url('http://i.imgur.com/YN7kKn7.jpg') repeat left top;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;

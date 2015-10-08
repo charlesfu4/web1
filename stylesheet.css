@@ -1,138 +1,71 @@
-
-
-
-.highlighted {
-    -webkit-box-shadow: 0 0 8px #FFD700;
-    -moz-box-shadow: 0 0 8px #FFD700;
-    box-shadow: 0 0 8px #FFD700;
-    cursor:pointer;
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
 }
 
-
-html { 
-  background: url(http://www.speechbuddy.com/blog/wp-content/uploads/2014/07/roadtrip.jpg) no-repeat center center; 
-  background-size: cover;
-  height: 800px;
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
 }
-div{
-   border-radius: 5px;
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-html, body {
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
-.header{
-background:rgba(0,0,0,0.7);
-  
-}
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 
-.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0;
-}
-.nav li {
-  color: white;
-  display:inline;
-  margin-right:40px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
 }
 
-#name {
-float:left;
-margin-left: 5px;
-padding-top: 5px;
-font-size: 16px;
-font-family: Verdana, sans-serif;
-color: #ffffff;
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-#email{
-float:right;
-margin-right: 5px;
-padding-top: 5px;
-font-size: 16px;
-font-family: Verdana;
-color: #ffffff;
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-.a li{
-  font-family: cursive;
-  color: white;
-}
-.right h4{
-margin-left: 5px;
-margin-bottom: 15px;
-font-family: cursive;
-color:white;
-}
-
-li{
-color:white;
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-
-.right p{
-margin-left: 5px;
-margin-right: 5px;
-margin-top: -10px;
-font-family: cursive, serif;
-color: white;
-
+.icon-menu i {
+  margin-right: 5px;
 }
-
-li{
-list-style-type: bold;
-}
-
-.left{
-
-position:relative;
-float:left;
-margin-top: 50px;
-width: 23%;
-height: 400px;
-background: url(https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12046649_1171907322825907_512424542766622116_n.jpg?oh=e8aad2ed20109d523b41d55f05e63fa4&oe=569A18BC) no-repeat center center;
-margin-bottom: 10px;
-background-size:250px 250px;
-
-
-}
-
-.right{
-position:relative;
-float: right;
-margin-top: 50px;
-width: 73%;
-height: 675px;
-background:rgba(0,0,0,0.6);
-margin-bottom: 10px;
-
-}
-
-#footer{
-position: relative;
-height: 50px;
-background-color: violet;
-clear:both;
-font-family: Verdana;
-font-size: 14px;
-text-align: center;
-color: #ffffff;
-}
-
-#footer p{
-position: relative;
-padding-top: 15px;
-
-}
-
-

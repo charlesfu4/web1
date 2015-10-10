@@ -12,6 +12,12 @@ $(document).ready(function(){
         $(this).addClass('menu-color')},
         function(){
         $(this).removeClass('menu-color')    
+        });
+     $('.menu li').hover(
+        function(){
+        $(this).addClass('menu-color')},
+        function(){
+        $(this).removeClass('menu-color')    
         });    
     
     

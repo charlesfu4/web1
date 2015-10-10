@@ -15,9 +15,9 @@ $(document).ready(function(){
         });
      $('.menuli').hover(
         function(){
-        $(this).addClass('menu-color')},
+        $(this).addClass('menuli-color')},
         function(){
-        $(this).removeClass('menu-color')    
+        $(this).removeClass('menuli-color')    
         });    
     
     

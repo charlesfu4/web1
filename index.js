@@ -13,7 +13,7 @@ $(document).ready(function(){
         function(){
         $(this).removeClass('menu-color')    
         });
-     $('li').hover(
+     $('menuc').hover(
         function(){
         $(this).addClass('menuli-color')},
         function(){

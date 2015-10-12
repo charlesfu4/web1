@@ -157,8 +157,8 @@ color:white;
 }
 .egg {
     position: relative;
-    left: 0;
-    top: 0;
+    left: 700px;
+    top: 300px;
 }
 
 .contact{
@@ -187,7 +187,7 @@ opacity: 1;
 }
 
 .intro{
-background-color: rgba(0,0,0,0.7);
+background-color: rgba(0,0,0,0.4);
 float:right;
 margin-top: -400px;    
 width:1000px;

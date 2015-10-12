@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var main = function ( ) {
     $('.icon-menu').click(function(){
         $('.menu').animate({left:'0px'},200);
         $('body').animate({left:'285px'},850);
@@ -13,16 +13,28 @@ $(document).ready(function(){
         function(){
         $(this).removeClass('menu-color')    
         });
-     $('menuc').hover(
-        function(){
-        $(this).addClass('menuli-color')},
-        function(){
-        $(this).removeClass('menuli-color')    
-        });    
-    
-    
-});
+};
     
 
 
 
+$(document).ready(main);
+    $(document).ready(function(){
+        $(document).keydown(function(key) {
+        switch(parseInt(key.which,10)) {
+			case 37:
+$('.egg').animate({left: "-=10px"}, 'fast');
+				break;
+			case 38:
+$('.egg').animate({top: "-=60px"}, 'fast');
+$('.egg').animate({top: "+=60px"}, 'slow');		
+				break;
+			case 39:
+$('.egg').animate({left: "+=10px"}, 'fast');
+				break;
+            case 40:
+ $('.egg').animate({top: "+=10px"}, 'fast');
+				break;
+		}
+	});
+})
